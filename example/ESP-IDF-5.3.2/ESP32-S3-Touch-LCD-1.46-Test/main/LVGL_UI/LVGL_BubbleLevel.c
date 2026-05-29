@@ -155,19 +155,19 @@ void BubbleLevel_Show(void)
     lv_obj_align(canvas, LV_ALIGN_CENTER, 0, 0);
 
     lbl_st = lv_label_create(scr);
-    lv_obj_set_style_text_font(lbl_st, &lv_font_montserrat_18, 0);
+    lv_obj_set_style_text_font(lbl_st, &lv_font_montserrat_16, 0);
     lv_obj_set_style_text_color(lbl_st, C_GREEN, 0);
     lv_label_set_text(lbl_st, "LEVEL");
     lv_obj_align(lbl_st, LV_ALIGN_TOP_MID, 0, 52);
 
     lbl_x = lv_label_create(scr);
-    lv_obj_set_style_text_font(lbl_x, &lv_font_montserrat_18, 0);
+    lv_obj_set_style_text_font(lbl_x, &lv_font_montserrat_16, 0);
     lv_obj_set_style_text_color(lbl_x, C_WHITE, 0);
     lv_label_set_text(lbl_x, "X  0.0");
     lv_obj_align(lbl_x, LV_ALIGN_BOTTOM_LEFT, 20, -14);
 
     lbl_y = lv_label_create(scr);
-    lv_obj_set_style_text_font(lbl_y, &lv_font_montserrat_18, 0);
+    lv_obj_set_style_text_font(lbl_y, &lv_font_montserrat_16, 0);
     lv_obj_set_style_text_color(lbl_y, C_WHITE, 0);
     lv_label_set_text(lbl_y, "Y  0.0");
     lv_obj_align(lbl_y, LV_ALIGN_BOTTOM_RIGHT, -20, -14);
