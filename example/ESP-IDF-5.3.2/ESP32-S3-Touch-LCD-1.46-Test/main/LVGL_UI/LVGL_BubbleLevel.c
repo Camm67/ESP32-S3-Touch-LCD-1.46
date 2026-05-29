@@ -106,7 +106,7 @@ static void redraw(float pitch, float roll)
 static void level_timer_cb(lv_timer_t *t)
 {
     (void)t;
-    float ax = getAccX(), ay = getAccY(), az = getAccZ();
+    float ax = Accel.x, ay = Accel.y, az = Accel.z;
 
     float pitch_r = atan2f(ay, sqrtf(ax*ax + az*az)) * (180.f / (float)M_PI);
     float roll_r  = atan2f(-ax, az)                  * (180.f / (float)M_PI);
