@@ -8,7 +8,7 @@ idf_component_register(
                               "./LCD_Driver/Display_SPD2010.c"     
                               "./Touch_Driver/Touch_SPD2010.c"  
                               "./LVGL_Driver/LVGL_Driver.c"
-                              "./LVGL_UI/LVGL_Example.c"
+                              "./LVGL_UI/LVGL_BubbleLevel.c"
                               "./LVGL_UI/LVGL_Music.c"
                               "./SD_Card/SD_MMC.c" 
                               "./I2C_Driver/I2C_Driver.c"
